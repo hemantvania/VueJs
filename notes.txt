@@ -1,0 +1,21 @@
+
+Directives:
+
+> v-html
+googleLink: '<a target="_blank" href="http://google.com">Go to google</a>',
+
+<p v-html="googleLink"></p>
+
+use only when u does not have the controll on the source.
+
+v-on:keyup.enter
+v-on:keyup.stop
+
+v-on: = @
+v-bind = :
+
+@keyup.enter
+
+
+<p><a v-bind:href="link" target="_blank">{{ linkTitle }}</a></p>
+<p><a :href="link" target="_blank">{{ linkTitle }}</a></p>
